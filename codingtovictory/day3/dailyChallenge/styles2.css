@@ -1,0 +1,27 @@
+.column:nth-child(even) {
+    .box:nth-child(odd) {
+        background-color: pink;
+    }
+}
+.column:nth-child(odd) {
+    .box:nth-child(even) {
+        background-color: pink;
+    }
+}
+/* Something funky with ordering/positioning magic */
+.grid {
+    display: flex;
+/*you off this part of code because it looked better */
+    height: 1000px;
+    background-color: brown;
+}
+
+/* Everything takes up the maximum possible space UNLESS you restrict it. */
+.box {
+    width: 250px;
+    height: 250px;
+}
+.column {
+    height: 250px;
+    width: 250px;
+}
