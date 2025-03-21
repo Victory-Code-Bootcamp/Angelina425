@@ -1,0 +1,6 @@
+/* Example of using a downloaded image as a background */
+.body-background {
+    background-image: url('file:///C:/Users/shatz/coding/bread.avifs');
+    background-size: cover;
+    background-position: center;
+}
