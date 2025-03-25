@@ -1,0 +1,10 @@
+p1 {
+    font: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+body {
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(122, 203, 122);
+}
