@@ -1,0 +1,14 @@
+img {
+    height: 400px;
+    width: 400px;
+}
+    /* Example of hover effect on an image */
+img:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+/* Style for Roman numeral list */
+ol[type="I"] li {
+    font-family: 'Times New Roman', serif;
+    padding: 5px 0;
+  }
