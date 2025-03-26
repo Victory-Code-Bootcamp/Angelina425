@@ -9,6 +9,7 @@ img:hover {
 }
 /* Style for Roman numeral list */
 ol[type="I"] li {
-    font-family: 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 5px 0;
+    color: blueviolet;
   }
