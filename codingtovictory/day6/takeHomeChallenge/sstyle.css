@@ -8,7 +8,7 @@ a:link {
     background-color: white;
     font-size: x-large;
     text-decoration: none;
-    color: rgb(93, 180, 73);
+    color: rgb(197, 122, 157);
   }
   
   /* visited link */
@@ -18,7 +18,7 @@ a:link {
   
   /* mouse over link */
   a:hover {
-    color: hotpink;
+    color: rgb(118, 209, 122);
   }
   
   /* selected link */
