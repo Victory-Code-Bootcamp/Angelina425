@@ -1,0 +1,50 @@
+*{
+    color: fbf9fc;
+}
+header{
+    border-style: none;
+    text-align: center;
+    margin: 4rem;
+    padding: 1rem;
+    background-color: rgb(231, 139, 174);
+}
+li{
+    display: inline;
+    list-style-type: none;
+    margin: 6rem;
+    padding: 0rem;
+    font-size: x-large;
+    text-align: center;
+    /* mouse over link */
+}
+a:hover {
+    color: rgb(143, 250, 209);
+  }
+  
+  /* selected link */
+a:active {
+    color: rgb(109, 231, 174);
+}
+nav{
+    border-style: none;
+    margin: 4rem;
+    padding: 3rem;
+    background-color: rgb(231, 139, 174);
+}
+img{
+    display: inline-flex;
+    margin: 3rem;
+    height: 215px;
+    width: 255px;
+} 
+footer{
+    border-style: none;
+    margin: 4rem;
+    padding: 1rem;
+    background-color: rgb(231, 139, 174);
+    font-size: x-large;
+    text-align: center;
+}
+body {
+    background-color: pink;
+}
