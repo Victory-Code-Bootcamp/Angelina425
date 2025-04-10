@@ -1,0 +1,51 @@
+*{
+    color: fbf9fc;
+    text-align: center;
+}
+header, nav, section, aside{
+    border-style: none;
+    text-align: center;
+    font-size: x-large;
+    margin: 4rem;
+    padding: 2rem;
+    background-color: rgb(231, 139, 174);
+}
+#row{
+display: flex;
+}
+.column{
+    width: 75%;
+}
+ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    margin: 6rem;
+    color: aliceblue;
+    font-size: x-large;
+}
+a:hover {
+    color: rgb(145, 250, 215);
+  }
+  /* selected link */
+  a:active {
+    color: rgb(109, 241, 191);
+}
+img{
+    height: 90px;
+    width: 100px;
+    margin: 10px;
+}
+h3{
+    font-style: italic;
+}
+footer{
+    border-style: none;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(231, 139, 174);
+}
