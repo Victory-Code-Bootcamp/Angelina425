@@ -28,7 +28,7 @@ a:active {
 nav{
     border-style: none;
     margin: 4rem;
-    padding: 3rem;
+    padding: 4rem;
     background-color: rgb(231, 139, 174);
 }
 img{
@@ -37,9 +37,12 @@ img{
     height: 215px;
     width: 255px;
 } 
+footer a {
+    margin: 6rem;
+}
 footer{
     border-style: none;
-    margin: 4rem;
+    margin: 6rem;
     padding: 1rem;
     background-color: rgb(231, 139, 174);
     font-size: x-large;
@@ -48,3 +51,19 @@ footer{
 body {
     background-image: url(/final-project-practice/pics/cuteplain.png);
 }
+h1 {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.codystar-light {
+    font-family: "Codystar", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .codystar-regular {
+    font-family: "Codystar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+  }  
