@@ -1,0 +1,54 @@
+/* Reset some default styles */
+:root {
+    --primary-color: #e153b2;
+    --secondary-color: hsl(41, 31%, 20%);
+    --font-size-large: 1rem;
+    --margin-large: 2rem;
+    --padding-medium: 2rem;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-items: center;
+  }
+  
+  body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Responsive Flexbox Layout */
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Flex items */
+  .flex > div {
+    flex: 1 1 300px; /* grow, shrink, basis */
+    min-width: 250px;
+  }
+  
+  /* Responsive Text */
+  h1 {
+    font-size: 4vw; /* Responsive font size */
+    color: rgb(231, 148, 24);
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+  img {
+    width: 200px;
+    width: 400px;
+  }
