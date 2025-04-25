@@ -1,0 +1,21 @@
+body {
+        margin: 0;
+        padding: 0;
+        background-image: url('/imgEas/c66f3b50-4de5-4fbd-9e2c-4c353389f6c4.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-attachment: fixed; /* optional, keeps it fixed on scroll */
+}
+h1 {
+    color: rgb(66, 127, 66);
+    text-align: center;
+}
+.image-container {
+    text-align: left;     /* aligns image to the right */
+    padding: 20px;         /* adds space around the image */
+    position: absolute;
+    left: 0;             /* Align to the left */
+    top: 50%;            /* Move halfway down */
+    transform: translateY(-50%); /* Pull up by half its height to center vertically */
+  }
