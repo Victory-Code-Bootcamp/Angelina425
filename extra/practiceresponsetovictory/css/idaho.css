@@ -1,0 +1,17 @@
+.parallax {
+    /* The image used */
+    background-image: url("/practiceresponsetovictory/img/practice.jpeg");
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  p {
+    color: rgb(58, 39, 17);
+    text-align: center;
+  }

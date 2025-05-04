@@ -15,11 +15,3 @@ h3 {
   text-align: center;
   color: rgba(18, 61, 111, 0.896);
 }
-footer {
-  border-style: none;
-  text-align: center;
-  align-items: end;
-  margin: 1rem;
-  padding: 1rem;
-  background-color: rgb(230, 224, 216);
-}
