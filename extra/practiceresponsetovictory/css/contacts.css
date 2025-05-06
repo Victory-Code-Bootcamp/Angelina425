@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: url('/practiceresponsetovictory/img/pexels-photo-237272.webp');
+  background-image: url('/practiceresponsetovictory/img/idaho/cardbackground2.jpeg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: white;
+  background-color: rgb(192, 213, 247);
   color: black;
   padding: 12px 20px;
   border: none;
@@ -41,7 +41,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #98d6fa;
+  background-color: #5341dd;
 }
 
 .row.equal-height {
@@ -63,8 +63,13 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: thick whitesmoke;
 }
 
 .carousel-inner img {
   object-fit: cover;
+}
+
+p {
+  color: wheat;
 }
